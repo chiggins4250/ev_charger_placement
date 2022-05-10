@@ -45,7 +45,7 @@ def find_distance(m,n):
 if __name__ == "__main__":
 
     # get data
-    path = '../Files/publicEVL2_dec2021.csv'
+    path = '../Data/publicEVL2_dec2021.csv'
     ev_charger_data = generate_csv_file(path)
 
     # create lists to hold the data
@@ -89,5 +89,6 @@ if __name__ == "__main__":
             no_neighbors.append(charger_info)  # appends that location to list with no neighbors
         n += 1
 
-    print("The locations that don't have another EV charger within 20 km are: " + str(no_neighbors))
-    print(charger_distances)
+    print("The locations that don't have another Level 2 EV charger within 20 km are: " + str(no_neighbors))
+    print("The respective list of the km to the nearest station are: " + str(charger_distances))
+    
