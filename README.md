@@ -10,17 +10,17 @@ Melanie Blatt<br/>
 Collette Higgins
 
 # Required Packages
-Pandas
+Pandas<br/>
 Geopy
 
 # Main Programs
-DCFast_charger_loc.py
-Level2_charger_loc.py
+DCFast_charger_loc.py<br/>
+Level2_charger_loc.py<br/>
 EVData.py
 
 # How to use
-Step 1: Find data set to operate on that includes the adresses, latitude and longitude, ID and names of chargers and uses the column header names of "Station Name", "Street Address", "City", "State", "Zip Code", "Latitude", "Longitude", and "ID"
-Step 2: Ensure the path file in either DCFast_charger_loc or Level2_charger_loc is set up to read the fie with the charger locations you are looking to analyze and compare
+Step 1: Find data set to operate on that includes the adresses, latitude and longitude, ID and names of chargers and uses the column header names of "Station Name", "Street Address", "City", "State", "Zip Code", "Latitude", "Longitude", and "ID"<br/>
+Step 2: Ensure the path file in either DCFast_charger_loc or Level2_charger_loc is set up to read the fie with the charger locations you are looking to analyze and compare<br/>
 Step 3: Run the code
 
 # Results
