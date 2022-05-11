@@ -24,4 +24,4 @@ Step 2: Ensure the path file in either DCFast_charger_loc or Level2_charger_loc 
 Step 3: Run the code
 
 # Results
-File will output a pirnt statement that contains the names and loactions of each charger that is not within the specified threshold distance (set to 20km) to any of the other existing chargers. The distance of each of those chargers to the next closest charger is also printed in km. 
+File will output a print statement that contains the names and loactions of each charger that is not within the specified threshold distance (set to 20km) to any of the other existing chargers. The distance of each of those chargers to the next closest charger is also printed in km. 
