@@ -6,7 +6,7 @@ The purpose of this analysis is to inform decision making on EV charger placemen
 This code preliminarily aims to address the first question but can be further improved upon to expand its capabilities.
 
 # Contributors
-Melanie Blatt /n
+Melanie Blatt<br/>
 Collette Higgins
 
 # Required Packages
