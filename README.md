@@ -14,7 +14,14 @@ Pandas
 Geopy
 
 # Main Programs
+DCFast_charger_loc.py
+Level2_charger_loc.py
+EVData.py
 
 # How to use
+Step 1: Find data set to operate on that includes the adresses, latitude and longitude, ID and names of chargers and uses the column header names of "Station Name", "Street Address", "City", "State", "Zip Code", "Latitude", "Longitude", and "ID"
+Step 2: Ensure the path file in either DCFast_charger_loc or Level2_charger_loc is set up to read the fie with the charger locations you are looking to analyze and compare
+Step 3: Run the code
 
-# Sample Results
+# Results
+File will output a pirnt statement that contains the names and loactions of each charger that is not within the specified threshold distance (set to 20km) to any of the other existing chargers. The distance of each of those chargers to the next closest charger is also printed in km. 
