@@ -25,3 +25,9 @@ Step 3: Run the code
 
 # Results
 File will output a print statement that contains the names and loactions of each charger that is not within the specified threshold distance (set to 20km) to any of the other existing chargers. The distance of each of those chargers to the next closest charger is also printed in km. 
+
+# Limitations
+This project uses geodesic distance which calculates the direct path between two places not the traveling distance using roadways. Additionally, the current file parsing requres the data to have the exact column names listed. 
+
+# Future Work
+This can be further expanded to then look at more areas in Virginia not near any current chargers, possibly using a list of discrete latitudes and longitudes throughout the state. This analysis can also be combined with subsequent filters such as distance from major roadways of ptential locations as well as finding and weighting various demographic data. 
