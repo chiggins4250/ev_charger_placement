@@ -19,12 +19,13 @@ Level2_charger_loc.py<br/>
 EVData.py
 
 # How to use
-Step 1: Find data set to operate on that includes the adresses, latitude and longitude, ID and names of chargers and uses the column header names of "Station Name", "Street Address", "City", "State", "Zip Code", "Latitude", "Longitude", and "ID"<br/>
+Step 1: Find data set to operate on that includes the addresses, latitude, longitude, ID and names of chargers and uses the column header names of "Station Name", "Street Address", "City", "State", "Zip Code", "Latitude", "Longitude", and "ID"<br/>
 Step 2: Ensure the path file in either DCFast_charger_loc or Level2_charger_loc is set up to read the fie with the charger locations you are looking to analyze and compare<br/>
-Step 3: Run the code
+Step 3: Change file path to the location of your data
+Step 4: Run the code
 
 # Results
-File will output a print statement that contains the names and loactions of each charger that is not within the specified threshold distance (set to 20km) to any of the other existing chargers. The distance of each of those chargers to the next closest charger is also printed in km. 
+File will output a print statement that contains the names and loactions of each charger that is not within the specified threshold distance (set to 20 km) to any of the other existing chargers. The distance of each of those chargers to the next closest charger is also printed in km. 
 
 # Limitations
 This project uses geodesic distance which calculates the direct path between two places not the traveling distance using roadways. Additionally, the current file parsing requres the data to have the exact column names listed. 
